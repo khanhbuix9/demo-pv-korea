@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAAA,WACI,iBAAkB,CAClB,SAAU,CACV,WAAY,CAEZ,0BALJ,WAMQ,UAAW,CAElB","file":"13.bb0e4e7e.chunk.css","sourcesContent":[".page-game {\r\n    position: relative;\r\n    width: 70%;\r\n    margin: auto;\r\n    \r\n    @media (max-width: 1000px) {\r\n        width: 100%;\r\n    }\r\n}\r\n"]}

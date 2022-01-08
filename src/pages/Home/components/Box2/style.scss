@@ -1,0 +1,72 @@
+.box-2 {
+    .txt {
+        font-family: Pretendard;
+        font-size: 24px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.75;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ec5b37;
+    }
+
+    .inp_box2 {
+        border-bottom: 1px solid #dddfe5;
+    }
+
+    .content-box-2 {
+        .ant-input-affix-wrapper {
+            border: none;
+
+            &:focus {
+                box-shadow: none;
+            }
+        }
+
+        .lable_ipt {
+            font-family: Pretendard;
+            font-size: 18px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.75;
+            letter-spacing: normal;
+            text-align: left;
+            color: var(--gray-90);
+        }
+
+        .ic_1 {
+            font-family: Pretendard;
+            font-size: 18px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.75;
+            letter-spacing: normal;
+            text-align: left;
+            color: #737a8f;
+        }
+
+        .ic_2 {
+            font-family: Pretendard;
+            font-size: 18px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.75;
+            letter-spacing: normal;
+            text-align: left;
+            color: #16181e;
+        }
+    }
+
+    .group-bnt {
+        justify-content: flex-end;
+
+        .ant-btn.ant-btn-lg.bnt-buy {
+            background-color: #ec5b37;
+            color: #fff;
+        }
+    }
+}

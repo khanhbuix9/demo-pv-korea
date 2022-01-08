@@ -1,0 +1,44 @@
+.box-1 {
+    .txt {
+        font-size: 18px;
+        font-family: Pretendard;
+        font-size: 18px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.75;
+        letter-spacing: normal;
+        text-align: left;
+        color: var(--gray-80);
+    }
+
+    .content-box-1 {
+        .txt_top {
+            font-weight: normal;
+        }
+
+        .price {
+            font-family: Pretendard;
+            font-size: 40px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.75;
+            letter-spacing: normal;
+            text-align: right;
+            color: #ec5b37;
+        }
+
+        ._unit {
+            font-family: Pretendard;
+            font-size: 36px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.94;
+            letter-spacing: normal;
+            text-align: left;
+            color: var(--gray-90);
+        }
+    }
+}

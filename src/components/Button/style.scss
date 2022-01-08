@@ -1,0 +1,44 @@
+#btnLottery {
+    border: 0;
+    border-radius: 10px;
+    // box-shadow: 5px 5px 20px 5px rgba(196, 196, 196, 0.5);
+    box-shadow: 0, 0, 20px, 5px, rgba(196, 196, 196, 0.5);
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    height: 100%;
+    margin-top: 10px;
+    padding: 10px 35px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in;
+    width: 100%;
+    &:hover {
+        color: #fff;
+        -webkit-transform: translateY(-2px);
+        transform: translateY(-2px);
+    }
+
+    &.bg-violet {
+        background: #3a3a97;
+        &:hover {
+            background: #3a3a97;
+        }
+    }
+
+    &.bg-primary {
+        background: linear-gradient(270deg, #3468fe, #2787ec);
+        &:hover {
+            background: linear-gradient(90deg, #3468fe, #2787ec);
+        }
+    }
+
+    span {
+        font-weight: bold;
+        line-height: 24px;
+        color: #ffffff;
+        font-weight: bold;
+    }
+}

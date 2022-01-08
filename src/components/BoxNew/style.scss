@@ -1,0 +1,11 @@
+.box-container {
+    width: 540px;
+    height: 130px;
+    flex-grow: 0;
+    margin: 32px 0 20px 1px;
+    padding: 24px 27px 10px 28px;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1);
+    background-color: var(--white);
+}
